@@ -90,7 +90,7 @@ function getWeather(data) {
     card.append.Child(cardBody);
     fiveDayForecastEl.append(card);
 
-    }
+    
 
 return;
 
