@@ -191,6 +191,7 @@ function getPastCity(event) {
 }
 
 function handleCityFormSubmit(event) {
+  console.log(handleCityFormSubmit)
   event.preventDefault();
   // console.log("search");
   currentCity = cityInputEl.val().trim();
